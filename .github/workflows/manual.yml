@@ -1,3 +1,2 @@
-# This is a basic workflow that is manually triggered
-name: Install Qt
-      uses: jurplel/install-qt-action@v2
+- name: Install Qt
+  uses: jurplel/install-qt-action@v2.9.0
