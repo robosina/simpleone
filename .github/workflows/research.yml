@@ -12,5 +12,6 @@ jobs:
           root_file: determine_surface.tex
       - name: uploading
         uses: actions/upload-artifact@v2
-	with:
-	  path:Artifacts
+        with:
+          path: Artifacts
+          name: outputs
