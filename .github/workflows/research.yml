@@ -10,3 +10,7 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: determine_surface.tex
+	- uses: actions/upload-artifact@v2
+	  with:
+	    name: my-artifact
+	    path: path/to/artifact/world.txt
