@@ -13,5 +13,5 @@ jobs:
       - name: uploading
         uses: actions/upload-artifact@v2
         with:
-          path: Artifacts
+          path: determine_surface.pdf
           name: outputs
